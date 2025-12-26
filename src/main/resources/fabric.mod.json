@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "fakesight",
+  "version": "${version}",
+  "name": "fakesight",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fakesight/icon.png",
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "fakesight.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": ">=1.20.1"
+  }
+}
